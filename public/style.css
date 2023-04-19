@@ -1,0 +1,32 @@
+header{
+    height: 100px;
+    background-color: #272221;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #272221;
+    display: grid;
+    place-content: center;
+}
+.form1{
+    height: 500px;
+    background-color: rgb(71, 97, 173);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px black;
+}
+.tituloInicial{
+    background-color: aqua;
+}
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    
+}
+.custom-div{
+    display: flex;
+    gap: 20px;
+}
